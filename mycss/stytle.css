@@ -1,4 +1,19 @@
+
+body{background-color: wheat;}
+
 h1{
     background-color: aqua;
     color:yellow;
+}
+h1 x{
+    color: rgb(76, 0, 255);
+}
+h1 y{
+    color: violet;
+}
+
+.hai{
+    color:tomato;
+    font-size:x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
