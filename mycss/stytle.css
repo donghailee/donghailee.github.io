@@ -1,5 +1,4 @@
 
-body{background-color: wheat;}
 
 h1{
     background-color: aqua;
@@ -12,8 +11,20 @@ h1 y{
     color: violet;
 }
 
-.hai{
-    color:tomato;
-    font-size:x-large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.box0{
+    background-image: url(bj2.jpg);
+    background-position: center;
+    /*background-size: contain;*/
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
+
+.box1{
+    margin: 10;
+    width: 1000px;
+    height: 80px;
+    border: 2px solid;
+    padding: 10;
+}
+
+
