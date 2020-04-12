@@ -1,30 +1,23 @@
 
 
 h1{
-    background-color: aqua;
-    color:yellow;
-}
-h1 x{
-    color: rgb(76, 0, 255);
-}
-h1 y{
+    background-color: thistle;
     color: violet;
 }
 
-.box0{
-    background-image: url(bj2.jpg);
-    background-position: center;
-    /*background-size: contain;*/
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+button{
+    background-color: yellow;
+    color: rgb(12, 243, 62);
 }
 
-.box1{
-    margin: 10;
-    width: 1000px;
-    height: 80px;
-    border: 2px solid;
-    padding: 10;
+
+.box0{
+   /* background-image: url(bj2.jpg);
+    background-position: center;
+    /*background-size: contain;*/
+    background: yellowgreen;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 
