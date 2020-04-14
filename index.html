@@ -8,7 +8,7 @@
     </title>
 
 
-    <div id=i></div><br>
+    <div id=i>等待着下课</div><br>
     <script>
         // 检查是否正在播放
         var isPlaying = false;
@@ -32,7 +32,7 @@
                 
                 document.getElementById("i").innerHTML=i+"  "+"计时开始";
                 i++;
-                setTimeout("count()",1000*60);
+                setTimeout("count()",1000);
             }
             else{
                 play();
@@ -53,14 +53,12 @@
 
 
     <audio id='test' src="red.mp3"></audio>
-    <button onclick='count();'>Play</button>
-
-
+    <button onclick='count();this.disabled=true'>点我放心退出教室</button>
     <h1>
         <x>休息十分钟，上课真轻松</x>
     </h1>
+    <y href="javascript:location.reload();">点我重置</y>
 
-    
 
 
 
