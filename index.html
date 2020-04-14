@@ -32,7 +32,7 @@
                 
                 document.getElementById("i").innerHTML=i+"  "+"计时开始";
                 i++;
-                setTimeout("count()",1000);
+                setTimeout("count()",1000*60);
             }
             else{
                 play();
@@ -57,7 +57,7 @@
     <h1>
         <x>休息十分钟，上课真轻松</x>
     </h1>
-    <y href="javascript:location.reload();">点我重置</y>
+    <a href="javascript:location.reload();"class="reload">点我重置</a>
 
 
 
